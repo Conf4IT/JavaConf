@@ -100,6 +100,6 @@ function animateNav () {
 (function (d, s, id) {
     if ('https:' == document.location.protocol || d.getElementById(id)) return;
     var js, fjs = d.getElementsByTagName(s)[0]; js = d.createElement(s); js.id = id;
-    js.src = "http://bettercontactform.com/contact/media/d/6/d6ae80b1b686bc01ef3f667f33e40fa5c4bb1ae1.js";
+    js.src = "http://bettercontactform.com/contact/media/6/b/6b7a2e11a9e4fdb02f95ab248b7d91162b8bb4a7.js";
     fjs.parentNode.insertBefore(js, fjs);
-    }(document, "script", "bcf-render"));
+}(document, "script", "bcf-render"));
