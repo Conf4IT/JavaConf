@@ -2,11 +2,19 @@
 	height: 100%;
 	width: 100%;
 	display: table;
-    background: url("/images/background-3.jpg") no-repeat center center fixed;
+    background: url("/images/background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    .java-cup {
+        width: 172px;
+        vertical-align: top;
+        @media (max-width: $screen-xs-max) {
+            width: 32px;
+        }
+    }
 
     .title {
         vertical-align: middle;
