@@ -13,6 +13,7 @@
 
 .navbar-default {
 	transition: .3s;
+    background-color: rgba(76, 80, 153, 0.95);
 }
 
 .navbar-top {
@@ -80,7 +81,7 @@ body.slide-active {
 
 	.link-on-scroll{
 		@media (min-width: 767px) {
-			color: rgb(60, 60, 60) !important;
+			color: rgb(255, 255, 255) !important;
 			font-weight: 600;
 		}
 	}
@@ -88,7 +89,7 @@ body.slide-active {
 
 .navbar-default .navbar-nav > .active > a {
 	@media (min-width: 768px) {
-		border-bottom: 5px solid $blue;
+		border-bottom: 5px solid #ffffff;
 	}
 	@media (max-width: 767px) {
 		color: white;
