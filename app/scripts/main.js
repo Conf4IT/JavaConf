@@ -79,6 +79,8 @@ function toggleSpeakers () {
   $('.speakers .expand').click(function() {
       $(this).find('.description').slideToggle();
       $(this).find('.more').toggleClass('less');
+  }).find('.description a').click(function (event) {
+      event.stopPropagation();
   });
 }
 
