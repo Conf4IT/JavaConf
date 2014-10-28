@@ -77,4 +77,23 @@
 			margin: 20px 0 20px 0;
 		}
 	}
+
+    .sponsor-contact {
+        vertical-align: middle;
+        display: table-row;
+        height: 10%;
+        margin-bottom: 50px;
+    }
+
+    .sponsor-contact a {
+        font-size: 18pt;
+        background: $blue;
+        padding: 15px;
+        color:white;
+    }
+
+    /*.sponsor-contact a:hover {
+        transition: background-color 0.3s ease-out;
+        background-color: #892CB2;
+    }*/
 }
