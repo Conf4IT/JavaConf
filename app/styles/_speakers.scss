@@ -25,8 +25,9 @@
 		}
 	}
 
-	.name h4 > a {
-		margin-left: 5px;
+	.name h4 > a.twitter {
+        display: block;
+		margin-top: 5px;
 	}
 
 	.name p {
