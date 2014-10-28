@@ -102,6 +102,6 @@ function animateNav () {
 (function (d, s, id) {
     if ('https:' == document.location.protocol || d.getElementById(id)) return;
     var js, fjs = d.getElementsByTagName(s)[0]; js = d.createElement(s); js.id = id;
-    js.src = "http://bettercontactform.com/contact/media/6/b/6b7a2e11a9e4fdb02f95ab248b7d91162b8bb4a7.js";
+    js.src = "https://bettercontactform.com/contact/media/e/8/e8f5f15524791f091451daa74eff962f3555f88a.js";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, "script", "bcf-render"));
