@@ -36,9 +36,12 @@
 
     .register a {
         font-size: 18pt;
-        background: $blue;
-        padding: 15px;
-        color:white;
+        background-color: $blue;
+        border-color: #3E4290;
+    }
+
+    .register a:hover {
+        background-color: #3E4290;
     }
 
     h1 {
@@ -59,12 +62,12 @@
         text-align: center;
         margin-top: 20px;
     }
-        
-    @media (max-width: $screen-xs-max) { 
+
+    @media (max-width: $screen-xs-max) {
         h1 {
             font-size: 2em;
         }
-        
+
         h2 {
             font-size: 1.5em;
         }
@@ -82,7 +85,7 @@
         h1 {
             font-size: 4em;
         }
-        
+
         h2 {
             font-size: 2em;
         }
@@ -96,7 +99,7 @@
         h1 {
             font-size: 8em;
         }
-        
+
         h2 {
             font-size: 2em;
         }
