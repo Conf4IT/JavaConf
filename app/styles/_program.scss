@@ -1,10 +1,14 @@
 .program {
 	@extend %page-padding-sm;
-	
+
 	td {
-		line-height: 35px !important;
+		/*line-height: 35px !important;*/
 		vertical-align: middle;
 	}
+
+    td strong, td small {
+        padding: 0px !important;
+    }
 
 	table > tbody > tr:nth-child(1) > td:nth-child(1) {
 		border-top: inherit;
