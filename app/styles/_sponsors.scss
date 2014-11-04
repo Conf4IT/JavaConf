@@ -1,5 +1,5 @@
 .sponsors {
-	@extend %page-padding;	
+	@extend %page-padding;
 	text-align: center;
 
 	@media (min-width: $screen-sm-max) {
@@ -72,28 +72,33 @@
 		}
 	}
 
-	@media (max-width: $screen-sm-min) { 
+	@media (max-width: $screen-sm-min) {
 		[class*="col-"] {
 			margin: 20px 0 20px 0;
 		}
 	}
 
     .sponsor-contact {
+        text-align: center;
         vertical-align: middle;
         display: table-row;
         height: 10%;
         margin-bottom: 50px;
     }
 
-    .sponsor-contact a {
-        font-size: 18pt;
-        background: $blue;
-        padding: 15px;
-        color:white;
+    .sponsor-contact button {
+        background-color: $blue;
+        border-color: #3E4290;
     }
 
-    /*.sponsor-contact a:hover {
+    @media (min-width: $screen-md-min) {
+        .sponsor-contact button {
+            font-size: 18pt;
+        }
+    }
+
+    .sponsor-contact button:hover {
         transition: background-color 0.3s ease-out;
-        background-color: #892CB2;
-    }*/
+        background-color: #3E4290;
+    }
 }
