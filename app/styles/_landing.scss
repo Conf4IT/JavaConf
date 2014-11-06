@@ -12,7 +12,7 @@
         width: 172px;
         vertical-align: top;
         @media (max-width: $screen-xs-max) {
-            width: 32px;
+            display: none;
         }
     }
 
